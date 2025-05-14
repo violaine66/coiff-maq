@@ -52,3 +52,28 @@ header h1 {
   border-bottom: 1px solid #494949;
   padding-bottom: 10px;
  }
+
+ .sous-titre-meb {
+  color: #9DA070
+ }
+
+ .mise-en-beaute {
+  margin-top: 40px;
+  max-width: 700px;
+
+  text-align: left;
+  color: #333;
+ }
+
+ .img-misenbeaute {
+ overflow: hidden;
+  height: 100%;
+ }
+
+#meb {
+  gap: 3rem;
+}
+
+h2  {
+  text-transform: uppercase;
+}
