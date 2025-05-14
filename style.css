@@ -25,7 +25,30 @@ header h1 {
     color: #4B5905;
 }
 
-.english-spoken p {
-  color:#4B5905;
+.banner-flower {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/banner-flower.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
 }
 
+#slogan {
+  background-color: #FCFCFC;
+  color:#4B5905;
+  padding: 20px;
+}
+ #makeup {
+  font-weight: bolder;
+ }
+
+ .contact {
+  background-color: #FAFAFA;
+ }
+
+ .mail-container {
+  border-bottom: 1px solid #494949;
+  padding-bottom: 10px;
+ }
