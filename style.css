@@ -7,6 +7,10 @@ header h1 {
 
 }
 
+.nav-link {
+  text-transform: uppercase;
+}
+
 .nav a {
   color:#494949;
 }
@@ -24,7 +28,7 @@ header h1 {
 }
 
 .banner-flower {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/banner-flower.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/banner-flower2.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
