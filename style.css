@@ -65,11 +65,12 @@ header h1 {
  }
 
  .mise-en-beaute {
+  margin-left: 170px;
   margin-top: 40px;
   max-width: 700px;
-
   text-align: left;
   color: #333;
+  text-align: justify;
  }
 
  .img-misenbeaute {
@@ -106,11 +107,12 @@ h2 {
 }
 
 #tete-a-tete {
-  gap: 5rem;
+  gap: 10rem;
   margin-right: 100px;
 }
 
 .tete-a-tete {
     margin-top: 40px;
     max-width: 650px;
+    text-align: justify;
 }
