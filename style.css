@@ -1,0 +1,31 @@
+.nav-item>a.nav-link{
+  text-decoration: none;
+}
+
+header h1 {
+  color:#494949;
+
+}
+
+.nav a {
+  color:#494949;
+}
+
+.english-spoken {
+  background-color: #F0EFEB;
+  padding: 20px, 0px;
+}
+
+
+
+.en {
+   border-bottom: 1px solid #4B5905;
+   width : 130px;
+    padding-bottom: 10px;
+    color: #4B5905;
+}
+
+.english-spoken p {
+  color:#4B5905;
+}
+
