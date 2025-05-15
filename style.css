@@ -2,9 +2,24 @@
   text-decoration: none;
 }
 
+@media (min-width: 992px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+.nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+
 header h1 {
   color:#494949;
 
+}
+
+.dropdown-menu a {
+ text-transform: uppercase;
 }
 
 .nav-link {
@@ -60,6 +75,8 @@ header h1 {
   padding-bottom: 10px;
  }
 
+
+ /* MISE EN BEAUTE */
  .sous-titre-meb {
   color: #9DA070
  }
@@ -87,6 +104,8 @@ h2 {
   color:#405405 !important;
 }
 
+
+/* TETE A TETE */
 .btn-tetatete {
   text-transform: uppercase ;
   border: 1px solid #333;
@@ -94,14 +113,12 @@ h2 {
   padding: 10px 20px;
   margin-top: 10px;
 }
-
 .img-cover {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-
 .img-tetatete {
   overflow: hidden;
 }
@@ -110,9 +127,42 @@ h2 {
   gap: 10rem;
   margin-right: 100px;
 }
-
 .tete-a-tete {
     margin-top: 40px;
     max-width: 650px;
     text-align: justify;
+}
+
+/* grid-insta-container */
+.findmeinsta {
+  font-size: 32px;
+  color: #b0b1b0
+
+}
+.grid-insta-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* gap: 8px; */
+  width: 100%;
+  margin: 20px 15px;
+}
+.grid-insta {
+  flex: 0 0 auto;
+  width: 220px; /* largeur fixe par exemple */
+  height: 160px; /* hauteur fixe par exemple */
+}
+
+
+/* QUI SUIS-JE ?  */
+#quisuisje {
+  gap: 10rem;
+  margin-right: 100px;
+}
+.quisuisje {
+  margin-top: 40px;
+  max-width: 700px;
+  text-align: justify;
+}
+.quisuisje span {
+  color: #AAA070;
 }
