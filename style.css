@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 .nav-item>a.nav-link:hover{
-  color: inherit
+  color: #9DA070;
 }
 @media (min-width: 992px) {
   .dropdown:hover > .dropdown-menu {
