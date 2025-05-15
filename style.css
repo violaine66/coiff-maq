@@ -235,6 +235,8 @@ h2, h3 {
   width: 250px; /* largeur fixe par exemple */
   height: 270px; /* hauteur fixe par exemple */
 }
+
+
 /*
 SERVCES MARIAGES */
 .container-services {
@@ -260,4 +262,19 @@ SERVCES MARIAGES */
 }
 #coiffage span {
   color:#9DA070;
+}
+
+/*
+RDV VISIO */
+#le-rdv-visio {
+  background-image: url("images/rdv-visio.png");
+  width:450px;
+}
+#rdv-visio-container {
+  gap:0rem;
+  margin: 30px 50px;
+}
+#rdv-preparatoire {
+
+  background-color: #F5F4EC;
 }
