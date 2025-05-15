@@ -212,3 +212,52 @@ h2, h3 {
 .meb-mariage span {
   color:#9DA070;
 }
+.btn-avismaries {
+  max-width: 250px;
+  text-align: center;
+  background-color: #e6d6cd;;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+/* GRID INSTA MARIEE */
+.grid-insta-container-mariee {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  /* gap: 8px; */
+  width: 100%;
+  margin: 20px 15px;
+}
+.grid-insta-mariee {
+  flex: 0 0 auto;
+  width: 250px; /* largeur fixe par exemple */
+  height: 270px; /* hauteur fixe par exemple */
+}
+/*
+SERVCES MARIAGES */
+.container-services {
+  margin: 30px 50px;
+}
+#les-services {
+  font-size: 32px;
+  margin-top: 45px;
+  margin-left: 50px;
+  text-align: start;
+  line-height: 0.8;
+  color: #405405;
+}
+#services {
+  gap:10rem;
+}
+#coiffage-container {
+  background-color:#F8F4FA ;
+  padding: 40px 60px;
+  text-align: justify;
+  line-height: 1.7;
+  max-width: 1000px;
+}
+#coiffage span {
+  color:#9DA070;
+}
