@@ -20,6 +20,7 @@
 
 header h1 {
   color:#494949;
+  text-transform: uppercase;
 
 }
 
@@ -186,4 +187,28 @@ h2, h3 {
 }
 #note {
   color:#405405;
+}
+
+/* BANNER MARIAGE */
+.banner-mariage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/fleurschamps.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+#wedding-day {
+   background-color: #FCFCFC;
+  color:#4B5905;
+  padding: 20px;
+}
+.meb-mariage {
+  color:#494949;
+  line-height: 2;
+  font-size: 14px;
+}
+.meb-mariage span {
+  color:#9DA070;
 }
