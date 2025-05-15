@@ -249,16 +249,18 @@ SERVCES MARIAGES */
   text-align: start;
   line-height: 0.8;
   color: #405405;
+  max-width: 200px
 }
-#services {
+/* #services {
   gap:10rem;
-}
+} */
 #coiffage-container {
   background-color:#F8F4FA ;
   padding: 40px 60px;
   text-align: justify;
   line-height: 1.7;
-  max-width: 1000px;
+  min-width: 300px;
+  max-width:  950px;
 }
 #coiffage span {
   color:#9DA070;
@@ -266,15 +268,33 @@ SERVCES MARIAGES */
 
 /*
 RDV VISIO */
+
+
 #le-rdv-visio {
-  background-image: url("images/rdv-visio.png");
-  width:450px;
+  background-image: url("images/cafeordi.avif");
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 100%;
+  color: #F5F4EC;
+  font-weight: bolder;
+  font-size: 32px;
 }
 #rdv-visio-container {
   gap:0rem;
   margin: 30px 50px;
 }
 #rdv-preparatoire {
-
+  width: 700px;
   background-color: #F5F4EC;
+  padding: 40px 60px;
+  text-align: justify;
+   line-height: 1.7;
+}
+#rdv-preparatoire span {
+  color:#9DA070;
+}
+#uppercase {
+  text-transform: uppercase;
 }
