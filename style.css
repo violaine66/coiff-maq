@@ -293,7 +293,7 @@ RDV VISIO */
 #rdv-preparatoire span {
   color:#9DA070;
 }
-#uppercase {
+.uppercase {
   text-transform: uppercase;
 }
 
@@ -343,5 +343,28 @@ RDV VISIO */
   line-height: 1.7;
 }
 #atmosphere span {
+  color:#9DA070;
+}
+
+ /* MODALITES */
+ #les-modalites {
+  font-size: 32px;
+  margin-top: 45px;
+  margin-left: 50px;
+  text-align: start;
+  line-height: 0.8;
+  color: #405405;
+  max-width: 200px;
+  text-transform: uppercase;
+}
+#modalites-container {
+  background-color:#F8F4FA ;
+  padding: 40px 60px;
+  text-align: justify;
+  line-height: 1.7;
+  min-width: 300px;
+  max-width:  950px;
+}
+#modalites-container span {
   color:#9DA070;
 }
