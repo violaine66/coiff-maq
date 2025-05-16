@@ -372,7 +372,7 @@ RDV VISIO */
 /* AVIS */
 #avis-container {
   background-color:#F8FBFA ;
-  padding: 40px 60px;
+  padding: 40px 20px;
   text-align: justify;
   line-height: 1.7;
   padding: 40px 60px;
@@ -383,11 +383,24 @@ RDV VISIO */
 .avis-google {
   padding: 40px 60px;
   background-color: #E5F0EE;
- max-width: 700px;
+  max-width: 700px;
   text-align: justify;
 }
-
 .guillemet {
   font-size: 40px;
   font-weight: bolder;
+}
+
+ /* DROIT IMAGE */
+#droit-image-container {
+  background-color:#FFFFFF;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+ }
+.droit-image {
+  background-color: #FFFFFF;
+  max-width: 700px;
+  text-align: justify;
+
 }
