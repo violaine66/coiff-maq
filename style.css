@@ -1,3 +1,4 @@
+
 * {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -423,4 +424,12 @@ RDV VISIO */
 .img-container img {
   max-height: auto;
   max-width: 220px;
+}
+
+
+ /* FOOTER */
+.footer-container {
+  background-color: #FBF7FA;
+  display: flex;
+  justify-content: center;
 }
