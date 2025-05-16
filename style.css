@@ -298,3 +298,25 @@ RDV VISIO */
 #uppercase {
   text-transform: uppercase;
 }
+
+/* RDV ESSAI SERVICES */
+#les-services2 {
+  font-size: 32px;
+  margin-top: 45px;
+  margin-left: 50px;
+  text-align: start;
+  line-height: 0.8;
+  color: #405405;
+  max-width: 200px
+}
+#rdv-essai-container {
+  background-color:#F8F4FA ;
+  padding: 40px 60px;
+  text-align: justify;
+  line-height: 1.7;
+  min-width: 300px;
+  max-width:  950px;
+}
+#rdv-essai-container span {
+  color:#9DA070;
+}
