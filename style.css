@@ -268,8 +268,6 @@ SERVCES MARIAGES */
 
 /*
 RDV VISIO */
-
-
 #le-rdv-visio {
   background-image: url("images/cafeordi.avif");
    background-size: cover;
@@ -318,5 +316,32 @@ RDV VISIO */
   max-width:  950px;
 }
 #rdv-essai-container span {
+  color:#9DA070;
+}
+
+
+/* ATMOSPHERE */
+#atmosphere-img {
+  background-image: url("images/bulle.avif");
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 100%;
+  color: #405405;
+  font-weight: bolder;
+  font-size: 32px;
+}
+#atmosphere-img span {
+  text-transform: uppercase;
+}
+#atmosphere {
+  width: 700px;
+  background-color: #F5F4EC;
+  padding: 40px 60px;
+  text-align: justify;
+  line-height: 1.7;
+}
+#atmosphere span {
   color:#9DA070;
 }
