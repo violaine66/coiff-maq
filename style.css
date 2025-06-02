@@ -433,3 +433,15 @@ RDV VISIO */
   display: flex;
   justify-content: center;
 }
+
+
+/* LECON BEAUTE  */
+.banner-lecon_beaute {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/lecon_beaute.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
